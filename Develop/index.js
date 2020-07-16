@@ -1,4 +1,6 @@
 const inquirer = require('inquirer');
+const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // array of questions for user
 const questions = [
@@ -45,6 +47,14 @@ const questions = [
         type: 'input',
         name: 'description',
         message: 'Describe your project:',
+        validate: nameInput => {
+            if (nameInput) {
+                return true;
+            } else {
+                console.log('Please enter a description!');
+                return false;
+            }
+        }
     },
     {
         type: 'input',
@@ -90,7 +100,11 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
+function writeToFile(fileContent) {
+    fs.writeFile('./dist/README.md', fileContent, err => {
+        if (err) return console.log(err);
+        console.log('Success! File created!');
+      });
 }
 
 // function to initialize program
@@ -99,4 +113,7 @@ const init = () => {
 }
 
 // function call to initialize program
-init();
+init()
+.then(something => {
+    return generateMarkdown(something);
+});
