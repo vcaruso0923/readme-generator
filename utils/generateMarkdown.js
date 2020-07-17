@@ -92,9 +92,7 @@ const licenseDescriptionHandler = licenseChoice => {
 // function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-
 ${licenseBadgeHandler(data.license)}
-
 ## Description
 
 ${data.description}
