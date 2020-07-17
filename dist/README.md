@@ -1,8 +1,7 @@
-# 1
-
+# This is a test   [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 ## Description
 
-1
+s
 
 ## Table of Contents
 
@@ -15,24 +14,24 @@
 
 ## Installation
 
-1
+s
 
 ## Usage
 
-1
+s
 
 ## License
 
-No License!
+The Creative Commons CC0 Public Domain Dedication waives copyright interest in a work you've created and dedicates it to the world-wide public domain. CC0 is used to opt out of copyright entirely and ensure your work has the widest reach. As with the Unlicense and typical software licenses, CC0 disclaims warranties. CC0 is very similar to the Unlicense.
 
 ## Contributing
 
-1
+s
 
 ## Tests
 
-1
+s
 
 ## Questions
 
-If you have any questions, please contact me via [email](1) or on [Github](http://github.com/1).
+If you have any questions, please contact me via [email](s) or on [Github](http://github.com/s).
