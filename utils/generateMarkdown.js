@@ -91,8 +91,7 @@ const licenseDescriptionHandler = licenseChoice => {
 
 // function to generate markdown for README
 function generateMarkdown(data) {
-  return `
-# ${data.title}
+  return `# ${data.title}
 
 ${licenseBadgeHandler(data.license)}
 
@@ -131,8 +130,7 @@ ${data.tests}
 
 ## Questions
 
-If you have any questions, please contact me via [email](${data.email}) or on [Github](http://github.com/${data.githubUsername}).
-`;
+If you have any questions, please contact me via [email](${data.email}) or on [Github](http://github.com/${data.githubUsername}).`;
 }
 
 module.exports = generateMarkdown;
