@@ -1,11 +1,8 @@
-
-# Project Title
-
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# README.md Generator
 
 ## Description
 
-Description gos here
+A node.js application to assist in creating a README.md file for a project.
 
 ## Table of Contents
 
@@ -18,23 +15,23 @@ Description gos here
 
 ## Installation
 
-Intallation explanation
+Clone this repository to your local machine. You must have node.js installed. Install node modules for inquirer (Open directory in console, type 'npm install inquirer')
 
 ## Usage
 
-instructions on usage
+In directory of cloned project, run the app in the console with 'node index'. After answering all questions, your README.md will be created and saved to the 'dist' folder. This app can be used for any project so you can maintain consistent formatting without having to think about it.
 
 ## License
 
-A permissive license whose main conditions require preservation of copyright and license notices. Contributors provide an express grant of patent rights. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+No License
 
 ## Contributing
 
-contribution guidelines
+Contribute at will
 
 ## Tests
 
-tests eaxmples
+No tests
 
 ## Questions
 
