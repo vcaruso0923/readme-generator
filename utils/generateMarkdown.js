@@ -10,7 +10,7 @@ const licenseBadgeHandler = licenseChoice => {
     return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
   }
   else if (licenseChoice === 'BSD 2-Clause "Simplified" License') {
-    return `[![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause`
+    return `[![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)`
   }
   else if (licenseChoice === 'BSD 3-Clause "New" or "Revised" License') {
     return `[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`
