@@ -1,7 +1,7 @@
 
 # 1
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 
 ## Description
 
@@ -26,7 +26,7 @@
 
 ## License
 
-Eclipse Public License 2.0
+A simple permissive license only requiring preservation of copyright and license notices for source (and not binary) distribution. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
 
 ## Contributing
 

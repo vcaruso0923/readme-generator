@@ -1,6 +1,6 @@
 //different badge / description depending on chosen license
 const licenseBadgeHandler = licenseChoice => {
-  if (licenseChoice = 'Apache License 2.0') {
+  if (licenseChoice === 'Apache License 2.0') {
     return `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
   }
   else if (licenseChoice === 'GNU General Public License v3.0') {
@@ -45,7 +45,7 @@ const licenseBadgeHandler = licenseChoice => {
 }
 
 const licenseDescriptionHandler = licenseChoice => {
-  if (licenseChoice = 'None') {
+  if (licenseChoice === 'None') {
     return 'No License!'
   }
   else if (licenseChoice === 'Apache License 2.0') {
