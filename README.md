@@ -13,6 +13,8 @@ A node.js application to assist in creating a README.md file for a project.
 * [Tests](#tests)
 * [Questions](#questions)
 
+![readme generator](https://user-images.githubusercontent.com/62676730/100021321-2be98280-2d96-11eb-9aff-69cb5739f73f.PNG)
+
 ## Installation
 
 Clone this repository to your local machine. You must have node.js installed. Install node modules for inquirer (Open directory in console, type 'npm install inquirer')
